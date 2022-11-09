@@ -1,0 +1,10 @@
+.idea 
+enviro
+htmlcov
+procfile
+.coverage
+__pycache__
+.pytest_cache
+.vscode
+.editorconfig
+base.db
