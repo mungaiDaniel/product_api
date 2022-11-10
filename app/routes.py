@@ -14,7 +14,7 @@ def add_product():
     db.session.add(podct)
     db.session.commit()
 
-    return product_schema.jsonify(podct)
+    return product_schema.jsonify(podct), 201
 
 @app.route('/product', methods=['GET'])
 def get_all():
